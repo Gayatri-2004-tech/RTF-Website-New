@@ -112,14 +112,6 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-4">
           {/* <ThemeToggle /> */}
 
-          {/* Registration Button*/}
-          <Link
-            to="/registration"
-            className="px-5 py-2 text-sm font-mono font-medium text-cyan-400 border border-cyan-500/30 rounded-button hover:bg-cyan-500/10 transition-all"
-          >
-            REGISTER
-          </Link>
-
           <div className="relative profile-menu">
             <button
               onClick={() => setProfileOpen(!profileOpen)}

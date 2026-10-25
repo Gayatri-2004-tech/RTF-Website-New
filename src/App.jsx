@@ -21,7 +21,6 @@ import Timeline from './pages/Timeline';
 import Achievement from './pages/Achievement';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
-import Registration from './pages/Registration';
 import Login from './pages/Login';
 import MemberProfile from './pages/MemberProfile'
 
@@ -102,7 +101,6 @@ function AnimatedRoutes() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/registration" element={<Registration />} />
         <Route path="/member-profile" element={<MemberProfile />} />
       </Routes>
     </AnimatePresence>
